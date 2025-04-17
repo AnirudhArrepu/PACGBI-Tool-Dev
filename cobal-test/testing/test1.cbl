@@ -16,8 +16,18 @@ PROCEDURE DIVISION.
         DISPLAY "ERROR: Overflow occurred in total amount calculation."
     ELSE
         DISPLAY "Updated Total Amount: " TOTAL-AMOUNT.
-    END-IF.
+DISPLAY "Enter transaction amount: " WITH NO ADVANCING.
+ACCEPT TRANSACTION-AMT.
 
+ADD TRANSACTION-AMT TO TOTAL-AMOUNT.
+
+IF TOTAL-AMOUNT > 99999
+    DISPLAY "ERROR: Overflow occurred in total amount calculation."
+ELSE
+    DISPLAY "Updated Total Amount: " TOTAL-AMOUNT.
+END-IF.
+
+STOP RUN.
     STOP RUN.
 
  

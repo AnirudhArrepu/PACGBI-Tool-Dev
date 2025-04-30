@@ -1,22 +1,6 @@
-<<<<<<< Updated upstream
-#first retrieve issue 
-#retrieve file path from issue
-#open file and generate graph
-#perform semantic score
-#perform semantic rescore based on graph
-#input function to model and then get it updated
-#change function and make a commit
-
 from retrieve_issues import retrieve_file_paths
 from dependency_graph_cosine_similarity import extract_functions_body, parse_cobol_functions_and_calls, get_cosine_similarity_of_functions
 from semantic_rescore import recalculate_semantic_scores
-#write model_automation functions import
-#write function to make a commit - import
-=======
-from retrieve_issues import retrieve_file_paths
-from dependency_graph_cosine_similarity import extract_functions_body, parse_cobol_functions_and_calls, get_cosine_similarity_of_functions
-from semantic_rescore import recalculate_semantic_scores
->>>>>>> Stashed changes
 from model_automation import model_pipeline
 
 import networkx as nx

@@ -16,8 +16,8 @@ By integrating graph theory, and large language models (LLMs), PACGBI locates af
 
 ---
 ## Repo Structure
-Papers - Refernce Paper
-Tool - The files containing the helper classes used in the pipeline.
+Papers - Refernce Paper  
+Tool - The files containing the helper classes used in the pipeline  
 cobal-test - Contains the test files on which the model was evaluated
 
 ## Getting Started

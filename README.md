@@ -15,10 +15,6 @@ By integrating graph theory, and large language models (LLMs), PACGBI locates af
 - **GitHub CLI Extension** -  to easily run the tool from your terminal
 
 ---
-## Repo Structure
-Papers - Refernce Paper  
-Tool - The files containing the helper classes used in the pipeline  
-cobal-test - Contains the test files on which the model was evaluated
 
 ## Getting Started
 
